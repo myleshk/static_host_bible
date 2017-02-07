@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="overlib.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <title>Day 45 | Read Bible in One Year</title><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-71834961-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+<div class="container">
+    <header>
+        <div style='display:none;'>
+            <img src='icon.png'/>
+        </div>
+        <div align="center">
+            <div class="navigation-btn">
+                <span class="date"><span id="page-date"></span> / Day 45</span>
+                <a class="button2 btn-prev" href="./day_44.html">Previous</a>
+                <a class="button2 btn-today" href="javascript:void(0);" onclick="nav2today();">Today</a>
+                <a class="button2 btn-next" href="./day_46.html">Next</a>
+                <a class="button2" href="javascript:void(0);" name="calendar" id="toggle">Select Date</a>
+                <a href="javascript:void();" onclick="gotobot();" id="down"></a>
+            </div>
+
+            <form name="calendar" id="form1" style="display:none;">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="datepicker">Select Date: </label><input type="text" id="datepicker" name="date"
+                                                                                READONLY/>
+                        </td>
+                        <td>
+                            <input class="button btn-submit" type="button" value="Go"/>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+        <div id="light" class="white_content" onclick="return hidethis();">
+            <sup class="O0" id="c1"></sup>
+            <p class="O1" id="c2"></p>
+            <script>
+                $(document).ready(function () {
+
+                    $("#light").focusout(function () {
+                        $(this).fadeOut(100);
+                    });
+                });
+            </script>
+        </div>
+    </header>
+    <hr>
+    <article>
+        <div class="fd">新约：可一1～13</div> <div class="O0">　壹.福音的开始与奴仆救主的引进　一1～13</div><div class="O1">　一.福音的开始─藉着先锋的职事　1～8</div><div class="O2">　1.如所预言者　1～3</div><div class="AA"><b>第一章</b>　<sup>1</sup><sup><a href="javascript:void(0);" onClick="return overlib(&#39;本福音的作者马可，又称约翰，（徒十二25，）是一位马利亚的儿子，（这马利亚在耶路撒冷召会中，与使徒彼得很接近─徒十二12，）也是巴拿巴的表弟。（西四10。）他陪同巴拿巴与保罗尽职，（徒十二25，）并参与保罗第一次出外向外邦人尽职的旅程，到了别加却离开保罗回去了。（徒十三13。）由于他中途折返，保罗第二次出外尽职时，拒绝带他同去；那时巴拿巴与保罗分手，马可就参与巴拿巴的工作。（徒十五36～40。）然而，在保罗晚年，直到他殉道，马可都是与他十分接近，（西四10，门24，）并在服事的事上对他有用处。（提后四11。）马可与彼得很接近，也许一直如此，因为彼得把他当作自己的儿子。（彼前五13。）在召会初期，马可福音就被认为是经由彼得口述，马可笔录的；在救主福音的服事中，彼得从始（16～18）至终（十四54，66～72）都伴随着主。本福音的记载是按着历史的次序，比别的福音书更富历史事实的细节。彼得在徒十36～42的话，就是这全本福音的概述。 约翰介绍神救主，着重救主在人性里的神性；马太介绍君王救主；马可介绍奴仆救主；路加介绍人救主。马太、马可与路加，是采取同一观点，在不同方面叙述救主带着神性的人性。马可既然介绍救主是奴仆，就没有说到祂的家谱和身分，因为奴仆的祖先是不值一题的。他也无意叫我们对这位奴仆美妙的言语有什么深刻的印象，（就如马太所记祂对诸天之国奇妙的教训和比喻，约翰所记祂对神圣真理的深奥启示，）却有意使我们对祂在福音服事中超绝的作为，有深刻的印象；他比别的福音书提供更多细节，描绘奴仆救主在为着神拯救罪人的服事上，所显出的殷勤、忠信和其他的美德。马可福音是赛四二1～4、6～7，四九5～7，五十4～7，五二13～五三12，关于基督是耶和华奴仆之预言的应验，以及腓二5～11，关于基督是神奴仆之教训的详述。祂殷勤工作，祂需要食物和歇息，（三20～21，六31，）祂也动怒、（三5、）叹息，（七34，）并祂对人的亲爱，（十21，）都优美的表现出祂人性的美德和完全；而祂是主，（二28，）祂无所不知，（二8，）祂有能力行神迹，祂有权柄赶鬼、（27，三15、）赦罪、（二7，10、）并平静风和海，（四39，）又都完全显明祂神性的荣耀和尊贵。何等一位神的奴仆！何等可爱，令人赞赏！这样一位奴仆作了奴仆救主来服事罪人，以祂的生命作他们的赎价，（十45，）为要成就祂所隶属之神的永远定旨。&#39;,&#39;可1:1注1&#39;);">a</a></sup><sup><a href="javascript:void(0);" onClick="return overlib(&#39;有些古卷无，神的儿子。本福音是奴仆救主的传记，祂是神成为肉体，作奴仆来拯救罪人。在这复合的名称里，神的儿子指明祂的神性，耶稣基督指明祂的人性，这二者在祂福音服事的职事和行动上，藉祂人性的美德和神圣的属性，充分的彰显出来，正如本福音所记载的。&#39;,&#39;可1:1注2&#39;);">b</a></sup>神的儿子，耶稣基督<sup><a href="javascript:void(0);" onClick="return overlib(&#39;即喜信，佳音。（罗十15。）福音乃是奴仆救主作神奴仆，服事神子民的事奉（职事）。马太福音开始于君王基督君尊的谱系，（太一1～17，）路加福音开始于那人耶稣为人的家谱，（路三23～38，）约翰福音开始于神儿子永远的源头，（约一1～2，）马可福音却开始于福音的开始，就是耶稣作神卑微奴仆（腓二7，太二十27～28）之服事的开始，并不开始于祂身位的起源。通常，一个奴仆值得别人注意的，不是他这个人，乃是他的服事。见太一1注1。&#39;,&#39;可1:1注3&#39;);">c</a></sup>福音的开始，<sup>2</sup><sup><a href="javascript:void(0);" onClick="return overlib(&#39;奴仆救主福音的开始，乃是正如以赛亚所记关于施浸者约翰的职事，这指明约翰传悔改的浸，也是耶稣基督福音的一部分。约翰的传扬结束了律法时代，代之以恩典时代。因此，恩典时代开始于约翰的职事，在奴仆救主的职事之前。&#39;,&#39;可1:2注1&#39;);">a</a></sup>正如申言者以赛亚书上所记的：“看哪，<sup><a href="javascript:void(0);" onClick="return overlib(&#39;指万军之耶和华。（玛三1。）&#39;,&#39;可1:2注2&#39;);">b</a></sup>我在<sup><a href="javascript:void(0);" onClick="return overlib(&#39;指耶稣基督。&#39;,&#39;可1:2注3&#39;);">c</a></sup>你面前差遣我的<sup><a href="javascript:void(0);" onClick="return overlib(&#39;原文与天使同字。启一20者同。&#39;,&#39;可1:2注4&#39;);">d</a></sup>使者，他要<sup><a href="javascript:void(0);" onClick="return overlib(&#39;直译，供备。传悔改的浸，（4，）乃是为奴仆救主铺路，使祂能临到罪人。（路一76。）&#39;,&#39;可1:2注5&#39;);">e</a></sup>预备你的道路；<sup>3</sup>在<sup><a href="javascript:void(0);" onClick="return overlib(&#39;奴仆救主福音的传扬，不是开始于任何文化中心，乃是开始于人类文化影响不到的旷野。见太三3注1与1注2。&#39;,&#39;可1:3注1&#39;);">a</a></sup>旷野有人<sup><a href="javascript:void(0);" onClick="return overlib(&#39;奴仆救主福音职事的开始，只是一个声音，不是一个伟大的运动。&#39;,&#39;可1:3注2&#39;);">b</a></sup>声喊着：<sup><a href="javascript:void(0);" onClick="return overlib(&#39;直译，备妥。预备主的道路，意指藉着悔改转变人的心思，将人的心思转向奴仆救主，并使他们的心正确，修直他们心的每一部分，使奴仆救主能有路进到他们里面作生命，并占有他们。（路一17。）&#39;,&#39;可1:3注3&#39;);">c</a></sup>预备主的道路，修直祂的途径。”</div><div class="O2">　2.传悔改的浸　4～6</div><div class="AA"><sup>4</sup>照这话，约翰<sup><a href="javascript:void(0);" onClick="return overlib(&#39;意即出现。&#39;,&#39;可1:4注1&#39;);">a</a></sup>出来了，在<sup><a href="javascript:void(0);" onClick="return overlib(&#39;约翰生来就是祭司，（路一8～13，57～63，）本该在殿里过祭司的生活，尽祭司的职任，但他却来到旷野传福音。这指明献祭给神的祭司时代，已被带领罪人归向神的福音时代所顶替，使神能得着罪人，罪人也能得着神。&#39;,&#39;可1:4注2&#39;);">b</a></sup>旷野施浸，传<sup><a href="javascript:void(0);" onClick="return overlib(&#39;悔改是转变心思，将心思转向奴仆救主；浸是将悔改的人埋葬，了结他们，好让奴仆救主藉着重生，使他们有新生的起头。（约三3，5～6。）&#39;,&#39;可1:4注3&#39;);">c</a></sup>悔改的浸，<sup><a href="javascript:void(0);" onClick="return overlib(&#39;或，为使。悔改受浸是为罪得赦免，也使罪得赦免，以清除人因堕落而有的拦阻，使人得与神和好。&#39;,&#39;可1:4注4&#39;);">d</a></sup>使<sup><a href="javascript:void(0);" onClick="return overlib(&#39;原文，复数。后文同。&#39;,&#39;可1:4注5&#39;);">e</a></sup>罪得赦。<sup>5</sup><sup><a href="javascript:void(0);" onClick="return overlib(&#39;这地区有圣城、圣殿和高度的文化；因此，是个尊荣的地区。&#39;,&#39;可1:5注1&#39;);">a</a></sup>犹太全地和全耶路撒冷的人，都络绎的出去到约翰那里，承认着他们的罪，在<sup><a href="javascript:void(0);" onClick="return overlib(&#39;见太三6注2。&#39;,&#39;可1:5注2&#39;);">b</a></sup>约但河里受他的<sup><a href="javascript:void(0);" onClick="return overlib(&#39;百姓因约翰的传扬而悔改，约翰就将他们浸到死水里，埋葬他们，了结他们，将他们预备好，让奴仆救主藉着他们的认罪，用圣灵使他们有新生的起头，叫他们复活。见太三6注3。&#39;,&#39;可1:5注3&#39;);">c</a></sup>浸。<sup>6</sup>约翰<sup><a href="javascript:void(0);" onClick="return overlib(&#39;约翰的生活方式，表明他的生活和工作完全是在新的时代里，不是照着老旧宗教、文化、传统的方式。见太三4注1。&#39;,&#39;可1:6注1&#39;);">a</a></sup>穿骆驼毛的衣服，腰束皮带，吃的是蝗虫野蜜。</div><div class="O2">　3.介绍奴仆救主　7～8</div><div class="AA"><sup>7</sup>他传道说，有<sup><a href="javascript:void(0);" onClick="return overlib(&#39;虽然约翰传悔改的浸，但他职事的目标乃是一位奇妙的人，神的儿子耶稣基督。他没有使自己成为他职事的中心，如同磁石把人吸引到他那里。他晓得自己不过是万军之耶和华所差遣的使者，要带人归向神的儿子耶稣基督，并高举基督为他职事的目标。&#39;,&#39;可1:7注1&#39;);">a</a></sup>一位在我以后来的，能力比我更大，我就是弯腰给祂解鞋带也不配。<sup>8</sup>我是将你们浸在<sup><a href="javascript:void(0);" onClick="return overlib(&#39;水象征死与埋葬，为着了结悔改的人；圣灵是生命与复活的灵，为着使被了结的人有新生的起头。前者是约翰悔改职事的标记，后者是奴仆救主生命职事的标记；约翰将悔改的人埋入死水，奴仆救主使他们复起，叫他们凭着祂复活生命的灵得着重生。死水是指着并象征基督包罗万有的死，信徒就是浸入这死。（罗六3。）死水不仅埋葬受浸的人，也埋葬他们的罪、世界、已往的生活和历史，如红海为以色列人埋葬了法老和埃及的军兵，（出十四26～28，林前十2，）并将他们从弃绝神的世界及其败坏中分别出来，如洪水为挪亚和他一家所成就的。（彼前三20～21。）奴仆救主将信祂的人所浸入的圣灵，乃是基督的灵，也是神的灵。（罗八9。）因此，浸在圣灵里，就是浸入基督，（加三27，罗六3，）浸入三一神，（太二八19，）甚至浸入基督的身体；（林前十二13；）这身体是在一灵里与基督联合的。（林前六17。）藉着浸在这样的水里，并浸在这样的灵里，在基督里的信徒便重生进入神的国，（约三3，5与注2，）进入神圣生命和神圣管治的范围，使他们在神永远的国里，凭着神永远的生命而活着。&#39;,&#39;可1:8注1&#39;);">a</a></sup>水里，祂却要将你们浸在圣灵里。</div><div class="O1">　二.奴仆救主的引进　9～13</div><div class="O2">　1.受浸　9～11</div><div class="AA"><sup>9</sup>当那些日子，耶稣从<sup><a href="javascript:void(0);" onClick="return overlib(&#39;加利利被称为外邦人的加利利，是没有尊荣的地区，因此是个被藐视的地区；（约七52，见太四15注1；）拿撒勒又是这被藐视的地区中一座被藐视的城。（约一46。）神卑微的奴仆就长于并出于这源头。&#39;,&#39;可1:9注1&#39;);">a</a></sup>加利利的拿撒勒来，<sup><a href="javascript:void(0);" onClick="return overlib(&#39;在，直译，进入。&#39;,&#39;可1:9注2&#39;);">b</a></sup>在约但河里受了约翰的<sup><a href="javascript:void(0);" onClick="return overlib(&#39;身为神的奴仆，这位奴仆救主也受浸，表明祂甘愿服事神，并且不愿用人天然的作法，乃愿藉着死与复活来服事。（见太三13注1与16注1。）这样的受浸引进祂的服事。&#39;,&#39;可1:9注3&#39;);">c</a></sup>浸。<sup>10</sup>祂从水里上来，<sup><a href="javascript:void(0);" onClick="return overlib(&#39;马可对这位奴仆的记载，不在反映这位奴仆身分的显赫，乃在反映祂服事的殷勤。原文“立即”一辞在他的记载中用了四十二次，有些古卷多用了一次，在本恢复本译为：立即、立刻、随即、即刻、即时、一、顿。&#39;,&#39;可1:10注1&#39;);">a</a></sup>立即看见<sup><a href="javascript:void(0);" onClick="return overlib(&#39;诸天向奴仆救主开启，表明祂甘心献上自己作神的奴仆，蒙了神的悦纳；那灵彷佛鸽子，降到祂身上，表明神用那灵为着祂对神的服事而膏祂。（路四18～19。）&#39;,&#39;可1:10注2&#39;);">b</a></sup>诸天裂开了，那灵彷佛<sup><a href="javascript:void(0);" onClick="return overlib(&#39;见太三16注4。&#39;,&#39;可1:10注3&#39;);">c</a></sup>鸽子，降到祂身上<sup><a href="javascript:void(0);" onClick="return overlib(&#39;有些古卷下加，并停留着。&#39;,&#39;可1:10注4&#39;);">d</a></sup>。<sup>11</sup>又有声音从诸天之上出来，说，<sup><a href="javascript:void(0);" onClick="return overlib(&#39;见太三17注1。&#39;,&#39;可1:11注1&#39;);">a</a></sup>你是我的爱子，我喜悦你。</div><div class="O2">　2.试验　12～13</div><div class="AA"><sup>12</sup>那灵随即把耶稣<sup><a href="javascript:void(0);" onClick="return overlib(&#39;神悦纳并膏祂以后，那灵对这位神的奴仆所作的头一件事，就是催祂去受试验，以证实祂的完全无缺。&#39;,&#39;可1:12注1&#39;);">a</a></sup>催到旷野去。<sup>13</sup>祂在旷野<sup><a href="javascript:void(0);" onClick="return overlib(&#39;试验和受苦的时间。（申九9，18，王上十九8。）&#39;,&#39;可1:13注1&#39;);">a</a></sup>四十天受<sup><a href="javascript:void(0);" onClick="return overlib(&#39;神的仇敌撒但，被用来试验并查证神的奴仆。地上的野兽（消极方面），和天上的天使（积极方面），为这次试验也都用上了。&#39;,&#39;可1:13注2&#39;);">b</a></sup>撒但的试诱，并与野兽在一起，且有天使服事祂。</div>    </article>
+    <hr>
+    <article>
+        <div class="fd">旧约：利十三1～59</div><div class="O1">　三.从人里面发出的不洁（麻风）　十三1～59</div><div class="AA"><b>第十三章</b>　<sup>1</sup>耶和华对摩西、亚伦说，<sup>2</sup>人的肉皮上若长了<sup><a href="javascript:void(0);" onClick="return overlib(&#39;麻风表征从人里面发出来严重的罪，就如明知故犯、任意妄为、定意顶撞神的罪。在米利暗、（民十二1～10、）基哈西、（王下五20～27、）和乌西雅（代下二六16～21）的事例中我们看见，麻风起因于背叛神的权柄、背叛神的代表权柄、背叛神的法则、以及背叛神的经纶。罪在圣经里的意思就是背叛。（约壹三4与注3。）因此，麻风表征罪。圣经中头一个罪的事例，乃是撒但背叛神。（结二八13～18，赛十四12～15。）因此，背叛的罪是由背叛的天使长路西弗所发明、开创的。至终，这罪，这麻风，经由亚当进到人类里面。（罗五12，19上，七20。）罪既进到人里面，就从人里面发出许多种的罪行，就是许多背叛的表显。因此，患麻风者代表堕落的亚当子孙，他们都是患麻风的。见太八2注1。 人在肉皮上的肿块、癣或火斑，是麻风的记号，表征人表现于外的任性、与人不和、骄傲和高抬自己。&#39;,&#39;利13:2注1&#39;);">a</a></sup>肿块，或长了癣，或长了火斑，在他肉皮上成了麻风的灾病，就要带他到<sup><a href="javascript:void(0);" onClick="return overlib(&#39;带到祭司面前，给祭司察看，并被关闭（隔离）七天，（2下～28，）表征一面被带到主前，一面被带到事奉神的人那里，给他们察看，并在一段完整的时间内，不得与别人接触。&#39;,&#39;利13:2注2&#39;);">b</a></sup>祭司亚伦或亚伦作祭司的一个子孙面前。<sup>3</sup>祭司要察看肉皮上的灾病，若灾病处的毛已经变<sup><a href="javascript:void(0);" onClick="return overlib(&#39;毛变白，表征行为的力量，就是过正常生活的力量，正在衰退。相反的，黑发表征人因着服从神，灵里刚强，能过正确的基督徒生活。（歌五11与注，参启一14与注1。）&#39;,&#39;利13:3注1&#39;);">a</a></sup>白，灾病的现象<sup><a href="javascript:void(0);" onClick="return overlib(&#39;灾病深于皮，表征人遮掩自己错误的行为，不肯承认。灾病不深于皮，其上的毛也没有变白，（4，）表征人承认自己错误的行为，没有遮掩，并且他行为的力量没有衰退。&#39;,&#39;利13:3注2&#39;);">b</a></sup>深于肉上的皮，这便是麻风的灾病。祭司察看了他，就要定他为不洁净。<sup>4</sup>若火斑在他肉皮上是白的，现象不深于皮，其上的毛也没有变白，祭司就要将有灾病的人隔离七天。<sup>5</sup>第七天，祭司要察看他，若见灾病止住了，没有在皮上发散，就要将他再隔离七天。<sup>6</sup>第七天，祭司要再察看他，若灾病<sup><a href="javascript:void(0);" onClick="return overlib(&#39;灾病发暗，而且没有在皮上发散，表征人的软弱藉着基督在他里面用恩典作恢复的工作，已经被生命吞灭。这样的人已经得了医治，得了恢复。&#39;,&#39;利13:6注1&#39;);">a</a></sup>发暗，而且没有在皮上发散，就要定他为洁净，那只是癣；那人要洗衣服，就得洁净。<sup>7</sup>但他将自己给祭司察看，定为洁净以后，癣若在皮上发散开了，他要再将自己给祭司察看。<sup>8</sup>祭司要察看，癣若在皮上发散，就要定他为不洁净，那是麻风。</div><div class="AA"><sup>9</sup>人有了麻风的灾病，就要带他到祭司面前。<sup>10</sup>祭司要察看，皮上若长了白肿块，使毛变白，在肿块之处有了<sup><a href="javascript:void(0);" onClick="return overlib(&#39;毛变白与新长了红肉，表征旧有的罪，因着行为力量渐衰，又回来了。&#39;,&#39;利13:10注1&#39;);">a</a></sup>新长的红肉，<sup>11</sup>这是肉皮上的旧麻风，祭司要定他为不洁净，不用将他隔离，因为他是不洁净了。<sup>12</sup>麻风若在皮上四外发散，<sup><a href="javascript:void(0);" onClick="return overlib(&#39;12～13节的光景，表征一个满了罪，肯在神面前承认自己一切罪的人，要得着赦免和洁净。（约壹一9。）&#39;,&#39;利13:12注1&#39;);">a</a></sup>长满了患灾病人的皮，就祭司所能看到的，从头到脚无处不有，<sup>13</sup>祭司就要察看，全身若长满了麻风，就要定那患灾病的为洁净；全身都变为白，他是洁净了。<sup>14</sup>但<sup><a href="javascript:void(0);" onClick="return overlib(&#39;这表征旧有的罪又回来了。然而，红肉又变白，患麻风者被定为洁净，（16～17，）表征若肯承认重复犯的罪，还是会得赦免和洁净。（约壹一9。）&#39;,&#39;利13:14注1&#39;);">a</a></sup>红肉几时显在他身上，他就几时不洁净。<sup>15</sup>祭司看到那红肉，就要定他为不洁净。红肉本是不洁净，那是麻风。<sup>16</sup>红肉若又变白了，他就要来见祭司。<sup>17</sup>祭司要察看，灾病处若变白了，祭司就要定那患灾病的为洁净，他是洁净了。</div><div class="AA"><sup>18</sup>人若在肉皮上长<sup><a href="javascript:void(0);" onClick="return overlib(&#39;麻风在治好的疮中发作，（18～20，）表征人得救后，外面的生活变得软弱（毛变白，）又有新的弱点在他的行为上显出。&#39;,&#39;利13:18注1&#39;);">a</a></sup>疮，却治好了，<sup>19</sup>在长疮之处又起了白肿块，或是白中带红的火斑，就要给祭司察看。<sup>20</sup>祭司要察看，若现象洼于皮，其上的毛也变白了，就要定他为不洁净，那是麻风的灾病在疮中发作了。<sup>21</sup>但祭司察看，若其上没有白毛，也没有洼于皮，乃是发暗，就要将他隔离七天。<sup>22</sup>若在皮上发散开了，祭司就要定他为不洁净，那是灾病。<sup>23</sup>火斑若在原处止住，没有发散，不过是疮的疤痕，祭司就要定他为洁净。</div><div class="AA"><sup>24</sup>人的<sup><a href="javascript:void(0);" onClick="return overlib(&#39;24～25节的光景，表征得救的人凭肉体行事，如发脾气、称义自己、不肯赦免人，乃是属灵麻风的征兆。&#39;,&#39;利13:24注1&#39;);">a</a></sup>肉皮上若有了火伤，火伤处的红肉成了火斑，或是白中带红，或是全白，<sup>25</sup>祭司就要察看，火斑中的毛若变白了，现象又深于皮，是麻风在火伤处发作，就要定他为不洁净，那是麻风的灾病。<sup>26</sup>但祭司察看，在火斑中若没有白毛，也没有洼于皮，乃是发暗，就要将他隔离七天。<sup>27</sup>到第七天，祭司要察看他，火斑若在皮上发散开了，就要定他为不洁净，那是麻风的灾病。<sup>28</sup>火斑若在原处止住，没有在皮上发散，乃是发暗，是火伤的肿块，祭司要定他为洁净，因为不过是火伤的疤痕。</div><div class="AA"><sup>29</sup>男人或女人，若是在<sup><a href="javascript:void(0);" onClick="return overlib(&#39;在圣经里，头，特别是头发，表征人的荣耀；（林前十一7，15；）胡须则与尊严，与人的自尊有关。头上和胡须上会有灾病，这指明麻风（背叛的罪）很容易隐藏在人的荣耀和尊严里。 头上的灾病，表征在服权柄和心思的想法上出了问题。（参林后十5，提后三8。）胡须上的灾病，表征尊荣自己，追逐人的抬举。（参太六1～6，路十一43，十四7～11。）&#39;,&#39;利13:29注1&#39;);">a</a></sup>头上或胡须上有灾病，<sup>30</sup>祭司就要察看这灾病，若现象深于皮，其间有<sup><a href="javascript:void(0);" onClick="return overlib(&#39;细黄毛表征人因着不顺从神的话，过正常基督徒生活的力量逐渐衰退。见3注1。&#39;,&#39;利13:30注1&#39;);">a</a></sup>细黄毛，就要定那人为不洁净，这是疥癣，是头上或胡须上的麻风。<sup>31</sup>祭司察看疥癣的灾病，若现象<sup><a href="javascript:void(0);" onClick="return overlib(&#39;灾病不深于皮，表征人没有遮掩自己的罪；其间也没有黑毛，表征这人无力抗拒自己的罪。&#39;,&#39;利13:31注1&#39;);">a</a></sup>不深于皮，其间也没有黑毛，就要将长疥癣灾病的隔离七天。<sup>32</sup>第七天，祭司要察看灾病，若疥癣没有发散，其间也没有黄毛，疥癣的现象不深于皮，<sup>33</sup>那人就要<sup><a href="javascript:void(0);" onClick="return overlib(&#39;剃去胡须而不剃头，表征对付自我尊荣，并对付寻求人的抬举，但保持对权柄的服从。（参林前十一10，15。）&#39;,&#39;利13:33注1&#39;);">a</a></sup>剃去胡须，但他不可剃疥癣之处。祭司要将那长疥癣的，再隔离七天。<sup>34</sup>第七天，祭司要察看疥癣，疥癣若没有在皮上发散，现象也不深于皮，就要定他为洁净；他要<sup><a href="javascript:void(0);" onClick="return overlib(&#39;衣服表征我们的行为。（赛六四6。）洗衣服，表征首先藉着基督的血，再藉着那灵，洗去行为上的弱点、过犯、缺点、背叛的言语、不正当的行动等污点。（启七14，林前六11。）&#39;,&#39;利13:34注1&#39;);">a</a></sup>洗衣服，便成为洁净。<sup>35</sup>但他得洁净以后，疥癣若在皮上发散开了，<sup>36</sup>祭司就要察看他；疥癣若在皮上发散，祭司就不必找黄毛，那人是不洁净了。<sup>37</sup>祭司若见疥癣已经止住，其间也长了<sup><a href="javascript:void(0);" onClick="return overlib(&#39;疥癣上长了黑毛，表征一个人过正常基督徒生活的属灵力量，在他软弱时得着加强。&#39;,&#39;利13:37注1&#39;);">a</a></sup>黑毛，疥癣已经痊愈，那人是洁净了，就要定他为洁净。</div><div class="AA"><sup>38</sup>男人或女人，肉皮上若起了火斑，就是<sup><a href="javascript:void(0);" onClick="return overlib(&#39;白火斑表征自我炫耀的病。（参太六1～6。）火斑呈灰白色，（39，）表征人已经自卑，且从自我炫耀的病得了恢复。&#39;,&#39;利13:38注1&#39;);">a</a></sup>白火斑，<sup>39</sup>祭司就要察看，他们肉皮上的火斑若是灰白的，这是皮上发作的疹，那人是洁净了。</div><div class="AA"><sup>40</sup>人<sup><a href="javascript:void(0);" onClick="return overlib(&#39;头上的发掉了，或额顶掉了发，（41，）（秃头，）表征虽然不服权柄，却没有在人面前背叛，即没有麻风的征兆。（42～44。）&#39;,&#39;利13:40注1&#39;);">a</a></sup>头上的发若掉了，他不过是头秃，还是洁净。<sup>41</sup>他额顶若掉了头发，他不过是额顶秃，还是洁净。<sup>42</sup>头秃处或额顶秃处若有白中带红的灾病，这是麻风在他头秃处或额顶秃处发作，<sup>43</sup>祭司就要察看他；那灾病若在头秃处或额顶秃处有肿块，是白中带红的，像肉皮上麻风的现象，<sup>44</sup>那人就是患麻风，是不洁净的；祭司要确定他为不洁净，他的灾病是在头上。</div><div class="AA"><sup>45</sup>患麻风灾病的人，他的<sup><a href="javascript:void(0);" onClick="return overlib(&#39;患麻风者向人公开承认自己的麻风，（45～46，）表征罪人向人公开承认自己的罪。撕裂自己的衣服，表征承认自己道德沦丧。蓬头散发，表征完全不服权柄，任性妄为。蒙着上唇，指明凡从患麻风者（罪人）发出来的，都是污秽且会传染的，也指明不可与其接触。喊叫说，“不洁净！不洁净！”指明不住的定罪自己。独居营外，（46，）表征有罪的人该留在召会之外，从神子民中间的交通隔离，（林前五13，）直到他清除了他的罪。&#39;,&#39;利13:45注1&#39;);">a</a></sup>衣服要撕裂，也要蓬头散发，蒙着上唇，喊叫说，不洁净！不洁净！<sup>46</sup>灾病在他身上的日子，他就是不洁净的；他既是不洁净，就要独居营外。</div><div class="AA"><sup>47</sup>染了麻风灾病的<sup><a href="javascript:void(0);" onClick="return overlib(&#39;衣服上的麻风，（47～59，）表征人外在的生活、行事为人、与人接触等事上的污秽。&#39;,&#39;利13:47注1&#39;);">a</a></sup>衣服，无论是<sup><a href="javascript:void(0);" onClick="return overlib(&#39;羊毛是柔软的，所以羊毛衣服表征人在行为并与人接触等事上是温柔的。麻布是纯净、朴素、简单的；因此，麻布衣服表征人在行为并与人接触等事上是纯朴的。皮子作的衣服（48）是暖和的；因此，皮子作的衣服表征人在行为并在与人接触等事上是热切的。如这三种衣服所表征的，我们的行为该是温柔、纯朴且热切的，没有麻风的征兆—罪和背叛的表显。&#39;,&#39;利13:47注2&#39;);">b</a></sup>羊毛衣服或麻布衣服，<sup>48</sup>无论是在<sup><a href="javascript:void(0);" onClick="return overlib(&#39;编织衣服的经线是从上到下，纬线是从左到右。因此，经表征我们向着神的外在行为，我们与神的关系；纬表征我们向着人的外在行为。我们日常的行事为人，乃是一种与神、人二者有关的经纬交织。我们需要与神与人都是正确的，也就是在我们的衣服上（在行为上，）无论在经或纬上（无论对神或对人，）都不该有麻风，背叛。&#39;,&#39;利13:48注1&#39;);">a</a></sup>经上或在纬上，是麻布的或羊毛的，无论是在皮子上或在皮子作的什么物件上，<sup>49</sup>这灾病在衣服上或皮子上，经上或纬上，或在皮子作的什么物件上，若是<sup><a href="javascript:void(0);" onClick="return overlib(&#39;灾病在衣服上发绿或发红，表征人生活和行为上不正常而奇怪的改变。灾病发散在衣服上，成为那种藉着侵噬肉体而扩散的恶性麻风，（51，）表征罪在人里面藉着吞吃那人而扩散，越来越恶化。&#39;,&#39;利13:49注1&#39;);">a</a></sup>发绿或发红，那就是麻风的灾病，要给祭司察看。<sup>50</sup>祭司要察看那灾病，把染了灾病的物件隔离七天。<sup>51</sup>第七天，他要察看那灾病。若灾病发散在衣服上，无论是经上或纬上，或在皮子上，这皮子无论当作何用，这灾病是恶性的麻风，是不洁净了。<sup>52</sup>那染了灾病的衣服，无论是经上或纬上，羊毛上或麻布上，或是皮子作的什么物件，他都要<sup><a href="javascript:void(0);" onClick="return overlib(&#39;在火中焚烧衣服，表征藉着基督的十字架刚强的对付有罪、污秽的生活和行为，而将其除去。（加五19～24。）&#39;,&#39;利13:52注1&#39;);">a</a></sup>焚烧；因为这是恶性的麻风，必在火中焚烧。</div><div class="AA"><sup>53</sup>祭司要察看，若灾病在衣服上，无论是经上或纬上，或在皮子作的什么物件上，没有发散，<sup>54</sup>祭司就要吩咐他们，把染了灾病的物件<sup><a href="javascript:void(0);" onClick="return overlib(&#39;把染了灾病却没有发散的衣服洗了，表征藉着神那洗净的灵（好比洗涤的水—林前六11，多三5，）对付人在生活和行为上可疑的弱点。&#39;,&#39;利13:54注1&#39;);">a</a></sup>洗了；祭司要把物件再隔离七天。<sup>55</sup>染了灾病的物件洗过以后，祭司要察看，那灾病的现象若没有改变，灾病也没有发散，那物件就不洁净，是<sup><a href="javascript:void(0);" onClick="return overlib(&#39;腐蚀的灾病是非常严重的；这表征腐蚀的罪更形恶化且深入，虽然悔改认罪，但在外表上并没有改变。这种罪能把人占有，把人吞吃吞没。&#39;,&#39;利13:55注1&#39;);">a</a></sup>腐蚀的灾病，无论里面或外面都蚀光了，要在火中焚烧。</div><div class="AA"><sup>56</sup>洗过以后，祭司要察看，若见那灾病发暗，他就要把那灾病从衣服上或皮子上，从经上或纬上，都<sup><a href="javascript:void(0);" onClick="return overlib(&#39;把衣服上染了灾病发暗的部分撕去，表征藉着彻底的对付，把人生活和行为上可疑的弱点除去。灾病再出现在衣服上，（57，）表征人的弱点受了对付并除去之后，再次显出来。&#39;,&#39;利13:56注1&#39;);">a</a></sup>撕去。<sup>57</sup>若再出现在衣服上，无论是经上或纬上，或在皮子作的什么物件上，这就是灾病发散了，必用火焚烧那染灾病的物件。<sup>58</sup>所洗的衣服，无论经或纬，或是皮子作的什么物件，若灾病离开了，要<sup><a href="javascript:void(0);" onClick="return overlib(&#39;所洗的衣服，若灾病离开了，要再洗一次，表征人的弱点经过对付之后，要进一步有再一次的对付。&#39;,&#39;利13:58注1&#39;);">a</a></sup>再洗一次，就洁净了。</div><div class="AA"><sup>59</sup>这就是麻风灾病的条例，无论是在羊毛衣服或麻布衣服上，在经上或纬上，或皮子作的什么物件上，可以定为洁净或不洁净。</div>    </article>
+
+    <hr>
+    <footer>
+        <div align="left">
+            <sup class="O0" id="capt"></sup>
+            <p class="O1" id="cont"></p>
+        </div>
+        <div align="center">
+            <div>
+                <a class="button2 btn-prev" href="./day_44.html">Previous</a>
+                <a class="button2 btn-today" href="javascript:void(0);" onclick="nav2today();">Today</a>
+                <a class="button2 btn-next" href="./day_46.html">Next</a>
+                <a href="javascript:void(0);" onclick="gototop();" id="top"></a>
+            </div>
+        </div>
+        <!--        <a name="sel"></a>-->
+        <div align="center" id="footer-sel">
+            <form name="calendar" id="form2">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="datepicker2">Select Date: </label><input type="text" id="datepicker2"
+                                                                                 name="date"
+                                                                                 READONLY/>
+                        </td>
+                        <td>
+                            <input class="button btn-submit" type="button" id="submit" value="Go"/>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <p align="center">©2015-<span id="current-year"></span> recoveryversion.online | Private Use Only | <a
+                        href="mailto:i@myles.hk">Contact Us</a></p>
+        </div>
+    </footer>
+    <input type="hidden" id="day-no" value="45"/>
+</div>
+</body>
+</html>

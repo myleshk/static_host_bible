@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="overlib.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <title>Day 279 | Read Bible in One Year</title><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-71834961-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+<div class="container">
+    <header>
+        <div style='display:none;'>
+            <img src='icon.png'/>
+        </div>
+        <div align="center">
+            <div class="navigation-btn">
+                <span class="date"><span id="page-date"></span> / Day 279</span>
+                <a class="button2 btn-prev" href="./day_278.html">Previous</a>
+                <a class="button2 btn-today" href="javascript:void(0);" onclick="nav2today();">Today</a>
+                <a class="button2 btn-next" href="./day_280.html">Next</a>
+                <a class="button2" href="javascript:void(0);" name="calendar" id="toggle">Select Date</a>
+                <a href="javascript:void();" onclick="gotobot();" id="down"></a>
+            </div>
+
+            <form name="calendar" id="form1" style="display:none;">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="datepicker">Select Date: </label><input type="text" id="datepicker" name="date"
+                                                                                READONLY/>
+                        </td>
+                        <td>
+                            <input class="button btn-submit" type="button" value="Go"/>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+        <div id="light" class="white_content" onclick="return hidethis();">
+            <sup class="O0" id="c1"></sup>
+            <p class="O1" id="c2"></p>
+            <script>
+                $(document).ready(function () {
+
+                    $("#light").focusout(function () {
+                        $(this).fadeOut(100);
+                    });
+                });
+            </script>
+        </div>
+    </header>
+    <hr>
+    <article>
+        <div class="fd">新约：西一1～14</div> <div class="O0">　壹.引言　一1～8</div><div class="O1">　一.使徒的问安　1～2</div><div class="AA"><b>第一章</b>　<sup>1</sup><sup><a href="javascript:void(0);" onclick="return overlib(&#39;本书的背景乃是在歌罗西的召会生活中，有了文化的搀杂。基督原是召会生活惟一的元素，当时却有文化顶替的搅扰。召会的构成成分该仅仅是基督，但文化中的一些元素竟侵入了召会。这些文化的元素，特别是宗教，就是与犹太教的规条并仪式（二16，20～21）有关的禁欲主义；以及哲学，就是与智慧派并敬拜天使（二8，18）有关的神秘主义。因此，本书的中心观念乃是：不可让任何事物顶替基督。 本书专讲基督是身体的头，启示基督的深奥、包罗和无限，比圣经其他各卷都更完全。&#39;,&#39;西1:1注1&#39;);">a</a></sup>凭<sup><a href="javascript:void(0);" onclick="return overlib(&#39;见弗一1注2。&#39;,&#39;西1:1注2&#39;);">b</a></sup>神旨意，作基督耶稣使徒的保罗，和弟兄提摩太，<sup>2</sup>写信给在歌罗西的<sup><a href="javascript:void(0);" onclick="return overlib(&#39;即圣者，就是被分别、圣别归神的人。他们住在歌罗西，却是从世界分别出来的。&#39;,&#39;西1:2注1&#39;);">a</a></sup>圣徒，就是在基督里忠信的弟兄：愿恩典与平安，从神我们的父归与你们。</div><div class="O1">　二.使徒的感谢　3～8</div><div class="AA"><sup>3</sup>我们感谢神，我们主耶稣基督的<sup><a href="javascript:void(0);" onclick="return overlib(&#39;见弗一3注2。&#39;,&#39;西1:3注1&#39;);">a</a></sup>父，常常为你们祷告，<sup>4</sup>因听见你们<sup><a href="javascript:void(0);" onclick="return overlib(&#39;直译，在基督耶稣里的信。&#39;,&#39;西1:4注1&#39;);">a</a></sup>对基督耶稣的<sup><a href="javascript:void(0);" onclick="return overlib(&#39;信是质实并接受在基督里的一切，爱是经历并享受我们从基督所接受的，盼望（5）是期待并等候在基督里的得荣。&#39;,&#39;西1:4注2&#39;);">b</a></sup>信，并对众圣徒的爱，<sup>5</sup>是因那给你们<sup><a href="javascript:void(0);" onclick="return overlib(&#39;将盼望存在诸天之上，是藉着活基督并经历基督。我们越活基督、经历基督，就越将盼望存在诸天之上。因此，盼望是我们现今在日常生活中所渐渐积存的。&#39;,&#39;西1:5注1&#39;);">a</a></sup>存在诸天之上的<sup><a href="javascript:void(0);" onclick="return overlib(&#39;4、5节的盼望、信和爱，是使徒在林前十三13所强调的三件事。那里着重爱，是因哥林多人的情况；这里着重盼望─严格的说，这盼望就是基督自己（27）─是为着启示基督对我们是一切。&#39;,&#39;西1:5注2&#39;);">b</a></sup>盼望，就是你们从前在<sup><a href="javascript:void(0);" onclick="return overlib(&#39;福音的真理是福音的实际，福音的真事实，并不是福音的道理。“话”可视为福音的道理，“真理”却必定是指实际。基督包罗万有的身位和祂多面救赎的工作，就是福音的实际。&#39;,&#39;西1:5注3&#39;);">c</a></sup>福音真理的话上所听见的；<sup>6</sup>这福音传到你们那里，也传到全世界，一直结果增长，正如在你们中间，自从你们听见，并在<sup><a href="javascript:void(0);" onclick="return overlib(&#39;真实在这里意即实际。（见约壹一6注6第八点。）在真实中认识神的恩典，就是在经历上实际认识神的恩典，并不是只在头脑里认识一些虚空的字句或道理。&#39;,&#39;西1:6注1&#39;);">a</a></sup>真实中认识<sup><a href="javascript:void(0);" onclick="return overlib(&#39;神的恩典乃是神之于我们的所是，以及神在基督里所赐给我们的一切。（约一17，林前十五10。）&#39;,&#39;西1:6注2&#39;);">b</a></sup>神恩典的日子一样；<sup>7</sup>正如你们从我们所亲爱，一同作奴仆的以巴弗所学的，他为你们作了基督忠信的<sup><a href="javascript:void(0);" onclick="return overlib(&#39;基督的执事不仅服事基督，是基督的仆人；也供应基督，是用基督服事别人的人。&#39;,&#39;西1:7注1&#39;);">a</a></sup>执事，<sup>8</sup>也把你们在那灵里的爱告诉了我们。</div><div class="O0">　贰.基督─居首位并包罗万有者，神的中心与普及　一9～三11</div><div class="O1">　一.圣徒的业分　一9～14</div><div class="AA"><sup>9</sup>所以，我们自从听见的日子，也就为你们不住的祷告祈求，愿你们在一切<sup><a href="javascript:void(0);" onclick="return overlib(&#39;属灵的智慧和悟性是属于我们灵里神的灵，这与仅仅在人黑暗心思里智慧派的哲学相对。智慧是在我们的灵里，以察知神永远的旨意；属灵的悟性是在我们由那灵更新的心思里，以明白并翻译我们在灵里所察知的。&#39;,&#39;西1:9注1&#39;);">a</a></sup>属灵的智慧和悟性上，充分认识<sup><a href="javascript:void(0);" onclick="return overlib(&#39;这里神的旨意是指神永远定旨的意愿，神关于基督之经纶的意愿，（弗一5，9，11，）并不是指神在小事上的旨意。&#39;,&#39;西1:9注2&#39;);">b</a></sup>神的旨意，<sup>10</sup><sup><a href="javascript:void(0);" onclick="return overlib(&#39;行事为人配得过主，乃是充分认识神旨意的结果。我们就是在这种配得过主的行事为人里活基督。&#39;,&#39;西1:10注1&#39;);">a</a></sup>行事为人配得过主，以致<sup><a href="javascript:void(0);" onclick="return overlib(&#39;即在各方面蒙主喜悦。&#39;,&#39;西1:10注2&#39;);">b</a></sup>凡事蒙祂喜悦，<sup><a href="javascript:void(0);" onclick="return overlib(&#39;指在各方面活基督、长基督、彰显基督并繁殖基督。这是基督徒一切善工的真正素质。&#39;,&#39;西1:10注3&#39;);">c</a></sup>在一切善工上结果子，藉着<sup><a href="javascript:void(0);" onclick="return overlib(&#39;不是在心思里字句的认识，乃是在灵里对神活的认识，藉此我们在生命里长大。&#39;,&#39;西1:10注4&#39;);">d</a></sup>认识神而长大，<sup>11</sup>照祂<sup><a href="javascript:void(0);" onclick="return overlib(&#39;即彰显神之荣耀的权能，在神的权能里荣耀祂。&#39;,&#39;西1:11注1&#39;);">a</a></sup>荣耀的权能，得以在各样的<sup><a href="javascript:void(0);" onclick="return overlib(&#39;不仅指基督复活的大能，（腓三10，）也指基督自己是那大能，在凡事上加力给我们，（腓四13，）使我们能欢欢喜喜的忍耐宽容，以过经历基督、活基督的生活。&#39;,&#39;西1:11注2&#39;);">b</a></sup>力上加力，使你们凡事<sup><a href="javascript:void(0);" onclick="return overlib(&#39;或将“欢欢喜喜的”译在下节“感谢父”之前。&#39;,&#39;西1:11注3&#39;);">c</a></sup>欢欢喜喜的忍耐宽容，<sup>12</sup>感谢父，叫你们<sup><a href="javascript:void(0);" onclick="return overlib(&#39;父神用子神的救赎，藉灵神的圣别，使我们够资格同得包罗万有的基督，就是经过过程之三一神的化身，作众圣徒的分。&#39;,&#39;西1:12注1&#39;);">a</a></sup>够资格在<sup><a href="javascript:void(0);" onclick="return overlib(&#39;这里的光，与下节的黑暗相对。当我们在撒但的权下，我们就是在黑暗里。但现今我们是在神爱子的国里，在光中享受祂。&#39;,&#39;西1:12注2&#39;);">b</a></sup>光中同得所分给众圣徒的<sup><a href="javascript:void(0);" onclick="return overlib(&#39;指业分，如以色列人分得迦南美地之分，作他们的产业。（书十四1。）新约信徒的基业，我们所分得的分，不是物质的土地，乃是包罗万有的基督。祂是众圣徒所分得的分，作了我们神圣的基业，给我们享受。&#39;,&#39;西1:12注3&#39;);">c</a></sup>分；<sup>13</sup>祂<sup><a href="javascript:void(0);" onclick="return overlib(&#39;为着基督作身体的头，并为着我们信徒作祂身体的肢体，神需要拯救我们脱离黑暗的权势，就是撒但的国，（太十二26下，）把我们迁入神爱子的国里。这使我们够资格分享那包罗万有的基督，作我们的分。&#39;,&#39;西1:13注1&#39;);">a</a></sup>拯救了我们脱离<sup><a href="javascript:void(0);" onclick="return overlib(&#39;直译，那黑暗。&#39;,&#39;西1:13注2&#39;);">b</a></sup>黑暗的权势，把我们迁入祂<sup><a href="javascript:void(0);" onclick="return overlib(&#39;子是父这生命源头的彰显。（约一4，18，约壹一2。）爱子是父爱的对象，在神圣的爱里对我们作生命的具体化身。&#39;,&#39;西1:13注3&#39;);">c</a></sup>爱子的国里；<sup>14</sup>我们在爱子里得蒙<sup><a href="javascript:void(0);" onclick="return overlib(&#39;前节的拯救是藉着败坏撒但邪恶的能力，对付他在我们身上的权势；本节的救赎是藉着满足神公义的要求，对付我们的罪。&#39;,&#39;西1:14注1&#39;);">a</a></sup>救赎，就是<sup><a href="javascript:void(0);" onclick="return overlib(&#39;原文，复数。罪得赦免，是我们在基督里所得的救赎。基督的死已经成功救赎，叫我们的罪得赦免。&#39;,&#39;西1:14注2&#39;);">b</a></sup>罪得赦免。</div>    </article>
+    <hr>
+    <article>
+        <div class="fd">旧约：赛三六1～三八22</div><div class="O0">　肆.寻求并信靠耶和华的实例　三六1～三九8</div><div class="O1">　一.希西家为其处境寻求耶和华　三六1～三七38</div><div class="AA"><b>第三十六章</b>　<sup>1</sup><sup><a href="javascript:void(0);" onclick="return overlib(&#39;本书的头三十五章，说到神对祂所爱的以色列爱的惩治，并祂对列国公义的审判，好叫祂的选民转向祂，使受造之物得复兴，并带进包罗万有的基督。至此一切人、一切事都被神解雇了；基督这惟一合格者已经来到。在三六～三九章，以赛亚给我们一个实例，就是犹大王希西家这个人。在这实例中，以赛亚给我们看见，像希西家这样一个被设立在神的国里作王，敬虔又祷告，并得着神以神迹答应他祷告的人，至终因着他荣耀自己，只顾到自己的利益，就没有成功，反而失败了。因此，他最后也被神解雇了。见三七～三九章注。&#39;,&#39;赛36:1注1&#39;);">a</a></sup>希西家王十四年，亚述王西拿基立上来攻击犹大的一切坚固城，将那些城攻取了。<sup>2</sup>亚述王从拉吉差遣<sup><a href="javascript:void(0);" onclick="return overlib(&#39;原文音译，拉伯沙基。全书同。&#39;,&#39;赛36:2注1&#39;);">a</a></sup>军长率领大军往耶路撒冷，到希西家王那里去。他站在上池的引水道旁，在通往漂布地的大路上。<sup>3</sup>于是希勒家的儿子家宰以利亚敬、书记舍伯那、和亚萨的儿子记事官约亚，出来见军长。<sup>4</sup>军长对他们说，你们去告诉希西家，亚述大王如此说，你所倚靠的有什么可仗赖的呢？<sup>5</sup>你说有打仗的计谋和能力，我说，不过是虚言。你到底倚靠谁才背叛我呢？<sup>6</sup>看哪，你倚靠埃及，乃是倚靠压伤的苇杖，人若靠这杖，这杖必刺透他的手；埃及王法老向一切倚靠他的人正是这样。<sup>7</sup>你若对我说，我们信靠耶和华我们的神；希西家岂不是曾将这位神的邱坛和祭坛废去，且对犹大和耶路撒冷的人说，你们当在这坛前敬拜吗？<sup>8</sup>现在你把抵押给我主亚述王，我就给你二千匹马，看你能不能派出足够骑马的人。<sup>9</sup>若不然，你怎能拒绝我主臣仆中一位最小的官长呢？你竟倚靠埃及供应你战车马兵吗？<sup>10</sup>现在我上来攻击毁灭这地，岂没有耶和华的意思吗？耶和华对我说，你上去攻击毁灭这地吧。<sup>11</sup>以利亚敬、舍伯那和约亚对军长说，求你用亚兰语和仆人说话，因为我们懂得；不要用犹大语和我们说话，免得达到城墙上百姓的耳中。<sup>12</sup>军长说，我主差遣我来，岂是单对你的主和你说这些话吗？不也是对这些坐在城墙上，要与你们一同吃自己粪、喝自己尿的人说吗？<sup>13</sup>于是军长站着，用犹大语大声喊着说，你们当听亚述大王的话。<sup>14</sup>王如此说，你们不要被希西家欺哄了，因他不能拯救你们；<sup>15</sup>也不要让希西家使你们信靠耶和华，说，耶和华必拯救我们，这城必不交在亚述王的手中。<sup>16</sup>不要听希西家的话，因亚述王如此说，你们要与我和好，出来向我投降；各人就可以吃自己葡萄树和无花果树的果子，喝自己井里的水；<sup>17</sup>等我来领你们到一地，与你们本地一样，就是有五谷和新酒之地，有粮食和葡萄园之地。<sup>18</sup>你们要谨防，恐怕希西家劝导你们说，耶和华必拯救我们。列国的神有那一个曾救自己的地脱离亚述王的手呢？<sup>19</sup>哈马、亚珥拔的神在哪里？西法瓦音的神在哪里？他们曾救撒玛利亚脱离我的手吗？<sup>20</sup>这些地所有的神中，有谁曾救自己的地脱离我的手呢？难道耶和华能救耶路撒冷脱离我的手吗？<sup>21</sup><sup><a href="javascript:void(0);" onclick="return overlib(&#39;直译，他们。&#39;,&#39;赛36:21注1&#39;);">a</a></sup>百姓静默不言，并不回答一句，因为王曾吩咐说，不要回答他。<sup>22</sup>当下，希勒家的儿子家宰以利亚敬、书记舍伯那、并亚萨的儿子记事官约亚，都撕裂衣服，来到希西家那里，将军长的话告诉了他。</div><div class="AA"><b>第三十七章</b>　<sup>1</sup>希西家王听见，就<sup><a href="javascript:void(0);" onclick="return overlib(&#39;希西家在这里的反应，和他在15～20，三八2～3，9～10的祷告，显示他是一个敬虔的人。&#39;,&#39;赛37:1注1&#39;);">a</a></sup>撕裂衣服，披上麻布，进了耶和华的殿。<sup>2</sup>他打发家宰以利亚敬、书记舍伯那、和祭司中的长老，都披上麻布，去见亚摩斯的儿子申言者以赛亚，<sup>3</sup>对他说，希西家如此说，今日是急难、责罚、凌辱的日子，就如孩子临产，妇人却没有力量生产。<sup>4</sup>或者耶和华你的神听见军长的话，就是他主人亚述王打发他来辱骂活神的话，耶和华你的神听了，就斥责这些话。故此，求你为余剩的民扬声祷告。<sup>5</sup>希西家王的臣仆就去见以赛亚。<sup>6</sup>以赛亚对他们说，要这样对你们的主人说，耶和华如此说，你听见亚述王的仆人亵渎我的话，不要惧怕。<sup>7</sup>看哪，我必使一灵进入他里面，他要听见风声就归回本地。我必使他在那里倒在刀下。<sup>8</sup>军长回去，正遇见亚述王攻打立拿；原来他早听见亚述王拔营离开拉吉。<sup>9</sup>亚述王听见人论古实王特哈加说，他出来要与你争战。亚述王一听见，就打发使者去见希西家，吩咐他们说，<sup>10</sup>你们对犹大王希西家如此说，不要让你所信靠的神欺哄你，说，耶路撒冷必不交在亚述王的手中。<sup>11</sup>你总听说亚述诸王向各地所行的，乃是尽行毁灭，难道你还能得拯救吗？<sup>12</sup>我列祖所毁灭的，就是歌散、哈兰、利色、和在提拉撒的伊甸人，这些国的神何曾拯救这些国呢？<sup>13</sup>哈马的王和亚珥拔的王，西法瓦音城、希拿和以瓦的王都在哪里呢？<sup>14</sup>希西家从使者手里接过书信来，念完了，就上耶和华的殿，将书信展开在耶和华面前。<sup>15</sup>希西家向耶和华祷告，说，<sup>16</sup>坐在二基路伯中间万军之耶和华以色列的神啊，惟独你是地上万国的神，你曾创造诸天与地。<sup>17</sup>耶和华啊，求你侧耳而听；耶和华啊，求你睁眼而看；要听西拿基立打发使者来辱骂活神的一切话。<sup>18</sup>耶和华啊，亚述诸王果真使列国和列国之地变为荒凉，<sup>19</sup>将列国的神像都扔在火里，因为它们本不是神，乃是人手所造的，是木头和石头的，所以被灭绝。<sup>20</sup>耶和华我们的神啊，现在求你救我们脱离亚述王的手，使地上万国都知道，惟独你是耶和华。<sup>21</sup>亚摩斯的儿子以赛亚，就打发人去见希西家，说，耶和华以色列的神如此说，你既向我祷告亚述王西拿基立的事，<sup>22</sup>所以耶和华论他这样说，锡安的处女藐视你，嗤笑你；耶路撒冷的女子在你背后摇头。<sup>23</sup>你辱骂谁？亵渎谁？你扬起声来，高举眼目攻击谁呢？乃是攻击以色列的圣者。<sup>24</sup>你藉你的臣仆辱骂主，你说，我率领许多战车上了山岭的高处，到了利巴嫩极深之处；我要砍伐其中高大的香柏树，和佳美的松树；我必进到其中极远的高处，和其中茂密的树林。<sup>25</sup>我已经挖井喝水；我必用脚掌踏干<sup><a href="javascript:void(0);" onclick="return overlib(&#39;埃及，或，被围困之处。&#39;,&#39;赛37:25注1&#39;);">a</a></sup>埃及一切的河。<sup>26</sup>耶和华说，我早先所作的，古时所定的，你岂没有听见吗？现在我将它实现，就是藉你使坚固城荒废，变为乱堆。<sup>27</sup>所以其中的居民力量短缺，惊惶羞愧；他们像田间的菜蔬和嫩草的青苗，如长在房顶上的草，<sup><a href="javascript:void(0);" onclick="return overlib(&#39;此乃照死海古卷和王下十九26；另有古卷作，又（如）田地虽已耕过，却无长成（之物。）&#39;,&#39;赛37:27注1&#39;);">a</a></sup>未长成就被晒枯。<sup>28</sup>你坐下，你出去，你进来，你向我发烈怒，我都知道。<sup>29</sup>因你向我发烈怒，又因你狂傲的话上达我的耳中，我必用钩子钩住你的鼻子，把嚼环放在你的嘴里，使你从原路转回去。<sup>30</sup>希西家阿，这是给你的兆头：你们今年要吃遗落自生的，明年也要吃遗落自长的；至于后年，你们要撒种收割，栽植葡萄园，吃其中的果子。<sup>31</sup>犹大家所逃脱余剩的，仍要往下扎根，向上结果。<sup>32</sup>必有余剩的民从耶路撒冷而出，必有逃脱的人从锡安山而来。万军之耶和华的热心必成就这事。<sup>33</sup>所以，耶和华论亚述王如此说，他必不得来到这城，也不在这里射箭；不得拿盾牌到城前，也不筑垒攻城。<sup>34</sup>他从那条路来，必从那条路回去，必不得进入这城；这是耶和华说的。<sup>35</sup>我为<sup><a href="javascript:void(0);" onclick="return overlib(&#39;神答应祷告，不是为希西家的缘故，乃是为祂自己和大卫的缘故。这指明在神的考量中，希西家在祂面前没有什么功劳。所有的功劳都归给神自己，或给希西家的先祖大卫。（参三八5上。）&#39;,&#39;赛37:35注1&#39;);">a</a></sup>自己的缘故，又为我仆人大卫的缘故，必保护拯救这城。<sup>36</sup>耶和华的使者出去，在亚述营中杀了十八万五千人；清早有人起来一看，都是死尸了。<sup>37</sup>亚述王西拿基立就拔营回去，住在尼尼微。<sup>38</sup>一日在他的神尼斯洛庙里叩拜，他儿子亚得米勒和沙利色用刀杀了他，就逃到亚拉腊地。他儿子以撒哈顿接续他作王。</div><div class="O1">　二.希西家为其健康寻求耶和华　三八1～22</div><div class="AA"><b>第三十八章</b>　<sup>1</sup>那些日子，希西家病得要死；亚摩斯的儿子申言者以赛亚去见他，对他说，耶和华如此说，你当留遗命给你的家，因为你将要死，不能活了。<sup>2</sup>希西家就转脸朝墙，祷告耶和华，<sup>3</sup>说，耶和华啊，求你记念我在你面前怎样按真实，并存完全的心行事，又作了你眼中所看为善的。希西家就痛哭了。<sup>4</sup>耶和华的话临到以赛亚，说，<sup>5</sup>你去告诉希西家，耶和华你祖大卫的神如此说，我听见了你的祷告，看见了你的眼泪；看哪，我必加增你<sup><a href="javascript:void(0);" onclick="return overlib(&#39;神给希西家另一个十五年，意思是他只会活到五十四岁。（王下十八2。）神只延长希西家十五年寿命，是因为在神眼中希西家不是一个可信托、能完成神定旨的人。希西家在最后的十五年里，犯了极严重的错误，导致神在地上的国丧亡。（三九。）&#39;,&#39;赛38:5注1&#39;);">a</a></sup>十五年的寿数。<sup>6</sup>并且我要救你和这城脱离亚述王的手，也要保护这城。<sup>7</sup>耶和华必成就祂所说的事。这是祂给你的兆头：<sup>8</sup>看哪，我必使亚哈斯<sup><a href="javascript:void(0);" onclick="return overlib(&#39;或，日晷。&#39;,&#39;赛38:8注1&#39;);">a</a></sup>台阶上那已经随日头下落的日影往后退十级。于是那落在台阶上的日影果然往后退了十级。<sup>9</sup>犹大王希西家患病痊愈以后，就写了这诗：<sup>10</sup>我说，正在我盛年之日，我就要进入阴间的门；我余剩的年岁已被夺去。<sup>11</sup>我说，我必不得见耶和华，就是不得在活人之地见耶和华；我要与住在万事休止之处的人同在，不得再见活人。<sup>12</sup>我的住处已被拔起离开我，好像牧人的帐棚一样。我已将性命卷起，像织布的卷布一样；耶和华必<sup><a href="javascript:void(0);" onclick="return overlib(&#39;或，用使人衰弱的病将我剪除。&#39;,&#39;赛38:12注1&#39;);">a</a></sup>将我从织布机头剪断；无论昼夜，你要使我终结。<sup>13</sup>我使自己安静直到天亮；祂像狮子折断我一切的骨头；无论昼夜，你要使我终结。<sup>14</sup>我像燕子呢喃，像白鹤鸣叫；又像鸽子哀鸣；我因仰望高处，眼睛困倦；主啊，我受欺压，求你为我作保。<sup>15</sup>我可说什么呢？祂应许了我，也亲自作成了；我因魂里的苦楚，在一生的年日，必<sup><a href="javascript:void(0);" onclick="return overlib(&#39;希西家用这辞指明，他知道自己已往太草率，自己的行事在神眼中不是那么正确。因此在他的祷告中，他说自己在一生的年日，必谨慎而行。然而当巴比伦的访客来到时，（三九1～2，）他没有谨慎而行，反而草率的行事。见三九2注1。&#39;,&#39;赛38:15注1&#39;);">a</a></sup>谨慎而行。<sup>16</sup>主啊，人活着乃靠这些；我灵活着也全在于这些；所以求你使我痊愈，让我存活。<sup>17</sup>看哪，我受大苦，本为使我得平安；你因爱拯救了我的魂脱离毁灭的坑，因为你已将我一切的罪扔在你的背后。<sup>18</sup>原来<sup><a href="javascript:void(0);" onclick="return overlib(&#39;见太十一23注1。在18～19节，希西家自私的求耶和华把他放在活人之中，使他能称谢祂。这指明他虽为着神，却是自私的。见三九8注1。&#39;,&#39;赛38:18注1&#39;);">a</a></sup>阴间不能称谢你，死亡不能赞美你；下坑的人不能盼望你的真实。<sup>19</sup>只有活人，活人必称谢你，像我今日称谢你一样；为父的必使儿女知道你的真实。<sup>20</sup>耶和华肯救我，所以我们要一生一世在耶和华殿中，用丝弦的乐器弹奏我的诗歌。<sup>21</sup>以赛亚曾说，当取一块无花果饼来，敷在疮上，王必得活。<sup>22</sup>希西家也曾说，我能上耶和华的殿，有什么兆头呢？</div>    </article>
+
+    <hr>
+    <footer>
+        <div align="left">
+            <sup class="O0" id="capt"></sup>
+            <p class="O1" id="cont"></p>
+        </div>
+        <div align="center">
+            <div>
+                <a class="button2 btn-prev" href="./day_278.html">Previous</a>
+                <a class="button2 btn-today" href="javascript:void(0);" onclick="nav2today();">Today</a>
+                <a class="button2 btn-next" href="./day_280.html">Next</a>
+                <a href="javascript:void(0);" onclick="gototop();" id="top"></a>
+            </div>
+        </div>
+        <!--        <a name="sel"></a>-->
+        <div align="center" id="footer-sel">
+            <form name="calendar" id="form2">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="datepicker2">Select Date: </label><input type="text" id="datepicker2"
+                                                                                 name="date"
+                                                                                 READONLY/>
+                        </td>
+                        <td>
+                            <input class="button btn-submit" type="button" id="submit" value="Go"/>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <p align="center">©2015-<span id="current-year"></span> recoveryversion.online | Private Use Only | <a
+                        href="mailto:i@myles.hk">Contact Us</a></p>
+        </div>
+    </footer>
+    <input type="hidden" id="day-no" value="279"/>
+</div>
+</body>
+</html>
