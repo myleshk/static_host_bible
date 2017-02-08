@@ -8,7 +8,7 @@
 
 // overlib(arg0,...,argN)
 // Loads parameters into global runtime variables.
-function overlib(content,caption) {
+function overlib(content, caption) {
     var light = $('#light');
     light.hide();
     var t1 = $('#capt');
@@ -17,30 +17,29 @@ function overlib(content,caption) {
     t2.html(content);
     $('#c1').html(caption);
     $('#c2').html(content);
-    var left = $(event.target).position().left - 2;
+    var left = $(event.target).offset().left - 2;
     var bodyWidth = parseInt($('body').css('width'));
-    if(bodyWidth-left < 150) left = bodyWidth - 150;
-    light.animate({ 
-        top: $(event.target).position().top+2,
-        left: left,
-     }, 100 );
+    if (bodyWidth - left < 150) left = bodyWidth - 150;
+    light.animate({
+        top: $(event.target).offset().top - 4,
+        left: left
+    }, 100);
     light.fadeIn(100);
 }
 
-function hidethis(){
+function hidethis() {
     $('#light').hide();
 }
 
-function gototop(){
-    $('html,body').animate({ scrollTop: 0 }, 'slow');
+function gototop() {
+    $('html,body').animate({scrollTop: 0}, 'slow');
 }
 
-function gotobot(){
+function gotobot() {
     hidethis();
-    $("html, body").animate({ scrollTop: $(document).height() }, "slow");
+    $("html, body").animate({scrollTop: $(document).height()}, "slow");
 }
-$(document).click(function (e)
-{
+$(document).click(function (e) {
     var container = $("a");
 
     if (!container.is(e.target) // if the target of the click isn't the container...
