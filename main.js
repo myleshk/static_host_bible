@@ -29,12 +29,12 @@ $(document).ready(function () {
 
     // initiate
     $("#datepicker").datepicker({
-        dateFormat: "yyyy-mm-dd",
+        dateFormat: "yy-mm-dd",
         minDate: new Date(new Date().getFullYear(), 0, 1),
         maxDate: new Date(new Date().getFullYear() + 1, 0, 0)
     });
     $("#datepicker2").datepicker({
-        dateFormat: "yyyy-mm-dd",
+        dateFormat: "yy-mm-dd",
         minDate: new Date(new Date().getFullYear(), 0, 1),
         maxDate: new Date(new Date().getFullYear() + 1, 0, 0)
     });
