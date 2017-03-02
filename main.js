@@ -1,9 +1,9 @@
 // google analytics
-(function(i, s, o, g, r, a, m) {
+(function (i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;
-    i[r] = i[r] || function() {
-        (i[r].q = i[r].q || []).push(arguments)
-    }, i[r].l = 1 * new Date();
+    i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
     a = s.createElement(o),
         m = s.getElementsByTagName(o)[0];
     a.async = 1;
@@ -13,6 +13,11 @@
 ga('create', 'UA-71834961-4', 'auto');
 ga('send', 'pageview');
 
+function getPageDay() {
+    var path = window.location.pathname;
+    var page = path.split("/").pop();
+    return parseInt(page.match(/\d+/).pop());
+}
 
 function nav2today() {
     nav2Day(date2DayOfYear());
@@ -39,6 +44,12 @@ function dayOfYear2Date(doy) {
     var result = new Date(year, 0, doy);
     return result.getDate() + " "
         + ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][result.getMonth()];
+}
+
+function getOriginFromURL(url) {
+    var parser = document.createElement('a');
+    parser.href = url;
+    return parser.origin;
 }
 
 $(document).ready(function () {
@@ -78,6 +89,15 @@ $(document).ready(function () {
         $(".btn-prev").hide();
     } else if (page_day == 365) {
         $(".btn-next").hide();
+    }
+
+    // check today and redirect
+    if (getPageDay() != date2DayOfYear()) {
+        // check origin
+        if(!(document.referrer && getOriginFromURL(document.referrer) == window.location.origin)){
+            // jump to today
+            nav2today();
+        }
     }
 
     $("#current-year").text(new Date().getFullYear());
