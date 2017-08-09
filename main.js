@@ -10,7 +10,7 @@
     a.src = g;
     m.parentNode.insertBefore(a, m)
 })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-ga('create', 'UA-71834961-4', 'auto');
+ga('create', 'UA-104319497-1', 'auto');
 ga('send', 'pageview');
 
 function getPageDay() {
